@@ -29,11 +29,6 @@ python main.py
 - Performs FGSM adversarial attacks.
 - Saves altered images in `jpeg_altered/`.
 
-Modify `starting_index` in the script to resume processing from a specific image:
-```python
-starting_index = 28311
-```
-
 ## Visualize
 
 Use `show_images()` and `show_difference()` to display and compare original, compressed, and adversarial images.
